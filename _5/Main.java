@@ -28,16 +28,9 @@ public class Main {
         System.out.println("Exercise 1:");
         //declaring the initial value
         int num = 10;
-        //setting new variable to add 1 to num value
-        int numPlusOne = num + 1;
-        //Out the result of the operation
-        System.out.println(numPlusOne);
-        //setting new variable to remove 1 from num value
-        int numMinusOne = num - 1;
-        //out the result of the operation
-        System.out.println(numMinusOne);
-        //System.out.println(num + 1);
-        //System.out.println(num - 1);
+        System.out.println(num + 1);
+
+        System.out.println(num - 1);
 
     }
 
@@ -51,16 +44,8 @@ public class Main {
         System.out.println("\nExercise 2:");
         //declaring the initial value
         double num = 10;
-        //setting new variable to multiply num value by 2
-        double numMultiply = num * 2;
-        //out the result of the operation
-        System.out.println(numMultiply);
-        //setting new variable to divide num value by 2
-        double numDivide = num / 2;
-        //out the result of the operation
-        System.out.println(numDivide);
-        //System.out.println(num * 2)
-        //System.out.println(num / 2)
+        System.out.println(num * 2);
+        System.out.println(num / 2);
     }
 
     /**
@@ -129,10 +114,11 @@ public class Main {
         //declaring the second age value
         int secondAge = 50;
         //setting the value for the next operation
-        int changeValue = 50;
+        int changeValue = 25;
         //dividing the value secondAge with the changeValue
         secondAge /= changeValue;
         //removing the last unit to obtain 0
+        secondAge--;
         secondAge--;
         //printing the result
         System.out.println(secondAge);
