@@ -129,7 +129,7 @@ public class Main {
         //declaring the second age value
         int secondAge = 50;
         //setting the value for the next operation
-        var changeValue = 50;
+        int changeValue = 50;
         //dividing the value secondAge with the changeValue
         secondAge /= changeValue;
         //removing the last unit to obtain 0
