@@ -51,7 +51,7 @@ public class Main {
         num = num  * 2;
         System.out.println(num);
         //dividing by 2
-        double divideNum = num / 2;    
+        double divideNum = num / 2;
         System.out.println(divideNum);
     }
 
