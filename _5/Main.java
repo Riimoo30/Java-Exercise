@@ -28,9 +28,12 @@ public class Main {
         System.out.println("Exercise 1:");
         //declaring the initial value
         int num = 10;
-        System.out.println(num + 1);
-
-        System.out.println(num - 1);
+        //adding 1
+        num++;
+        System.out.println(num);
+        //removing 1
+        num--;
+        System.out.println(num);
 
     }
 
@@ -44,8 +47,12 @@ public class Main {
         System.out.println("\nExercise 2:");
         //declaring the initial value
         double num = 10;
-        System.out.println(num * 2);
-        System.out.println(num / 2);
+        //multipling by 2
+        num = num  * 2;
+        System.out.println(num);
+        //dividing by 2
+        double divideNum = num / 2;    
+        System.out.println(divideNum);
     }
 
     /**

@@ -13,7 +13,7 @@ public class Main {
      */
     private static void exercise1() {
         System.out.println("Exercise 1:");
-     int age = 24;
+        int age = 24;
         System.out.println("My age is "+ age);
     }
 
@@ -26,8 +26,8 @@ public class Main {
      */
     private static void exercise2() {
         System.out.println("\nExercise 2:");
-       char initial = 'l';
-       int age = 24;
+        char initial = 'l';
+        int age = 24;
         System.out.println("My age = " + age + ", my initial = " + initial);
     }
 
