@@ -87,7 +87,7 @@ public class Main {
         System.out.println("\nExercise 4:");
         String startStr = "5";
         //converting the String into a int
-        int startNum = Integer.valueOf(startStr);
+        int startNum = Integer.parseInt(startStr);
         System.out.println(startNum);
         //multipling by 2
         startNum *= 2;
