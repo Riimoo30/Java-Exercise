@@ -61,15 +61,18 @@ public class Main {
      */
     private static void exercise3() {
         System.out.println("\nExercise 3:");
-        double ourDouble = 3.0;
-        double num = ourDouble + 1.0;
+        double ourDouble = 1.0;
+        //double num = ourDouble + 1.0;
         if (ourDouble > 2.5) {
             System.out.println("Greater than");
-        } else if(num < 2.5){
-          System.out.println("Is still lower than");
-        } else System.out.println("Is now greater than");
-    }
+        } else if (ourDouble < 2.5) {
+            ourDouble += 1.0;
 
+            if (ourDouble < 2.5) {
+                System.out.println("Is still lower than");
+            } else System.out.println("Is now greater than");
+        }
+    }
 
     /**
      * 4: Create an if statement with 4 outcomes, (1 if, 2 else if and an else)
