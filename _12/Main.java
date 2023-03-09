@@ -72,11 +72,14 @@ public class Main {
     public static double exercise2(String mealType, double weight, double expectedScore) {
         double yourMealScore = 0;
         // Start your code here
+        //calculating the score of sandiwich
         if(mealType.equals("sandwich")){
             yourMealScore = 5 * weight;
         }
+        //calculating the score of suop
         if(mealType.equals("soup")){
             yourMealScore = 3 * weight;
+        //if the score il less than 5; set an operation to set the minimum to 5
         } if(yourMealScore < 5){
             //
             yourMealScore +=(5 - yourMealScore);
